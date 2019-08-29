@@ -1,0 +1,5 @@
+<div>
+  <p><strong><%= episode.title %></strong> by <%= episode.date %></p>
+  <%= link_to 'Listen', episode.track.url(public: true) %>
+</div>
+<hr>

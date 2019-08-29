@@ -1,0 +1,3 @@
+class EpisodeUploader < Shrine
+
+end
